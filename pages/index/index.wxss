@@ -1,0 +1,56 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  /* margin-top: 100rpx; */
+  width: 65%;
+  margin: auto;
+  position: absolute;
+  bottom: 150rpx;
+  left: 0;
+  right: 0;
+}
+
+.usermotto button {
+  background: #3598db;
+  color: #fff;
+}
+
+.officialaccount {
+  width: 65%;
+  margin: auto;
+  position: absolute;
+  bottom: 300rpx;
+}
+
+.mainindex {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.moodfish.cn/upload/201803/1522060631.jpg');
+}
+
+.container {
+  height: 100%;
+}
+
+.loginBgImg {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}

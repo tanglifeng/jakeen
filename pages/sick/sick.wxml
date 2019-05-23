@@ -1,0 +1,3 @@
+<view class="container">
+  <web-view src="{{info.src}}" binderror='binderror' bindload='bindload' bindmessage='bindmessage'></web-view>
+</view>

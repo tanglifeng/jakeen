@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <image class='loginBgImg' src='{{loginImg}}' mode='scaleToFill'></image>
+  <!-- <view class='officialaccount'>
+    <official-account></official-account>
+  </view> -->
+  <view class="usermotto">
+    <button size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="getWxMinProgramInfo"> {{motto}} </button>
+  </view>
+  <!-- <video src="http://atfile.miq.cn/moodfish/video/3-cbt-view.mp4" binderror="videoErrorCallback"></video> -->
+</view>
